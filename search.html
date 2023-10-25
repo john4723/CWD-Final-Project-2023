@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search Anime | CoboAni</title>
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- FontAwesome CDN -->
+        <script src="https://kit.fontawesome.com/a915fee848.js" crossorigin="anonymous"></script>
+
+        <!-- MaterializeCSS icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Custom External CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="light-blue accent-2">
+            <div class="nav-wrapper light-blue accent-2">
+                <a href="index.html" class="brand-logo grey-text text-darken-3" style="font-family: cursive;">CoboAni</a>
+                <ul class="right">
+                    <li>
+                        <a href="search.html">
+                            <i class="fa-solid fa-magnifying-glass" style="margin-right: 5px;"></i>Search
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1 class="white-text font center">Search Anime</h1>
+
+        <div class="container main-container">
+            <!-- Search Panel -->
+            <div class="card-panel grey darken-4">
+                <div class="row">
+                    <div class="input-field col s10 offset-s1">
+                        <i class="material-icons prefix white-text">search</i>
+                        <input type="text" id="searchBar" class="white-text">
+                        <label for="searchBar">Enter anime name</label>
+                    </div>
+                    <div class="col s5 input-field grey darken-3 offset-s1">
+                        <span class="white-text font15 bold">Genre:</span>
+                        <select multiple> 
+                            <!-- <option value="" disabled selected>Select genre</option> -->
+                            <option value="1">Action</option>
+                            <option value="2">Adventure</option>
+                            <option value="3">Comedy</option>
+                            <option value="4">Fantasy</option>
+                            <option value="5">Magic</option>
+                            <option value="6">Romance</option>
+                            <option value="7">Slice of Life</option>
+                            <option value="8">Sports</option>
+                        </select>
+                        
+                    </div>
+    
+                    <div class="col s5 input-field grey darken-3" style="margin-left: 5px;">
+                        <span class="white-text font15 bold">Season:</span>
+                        <select multiple> 
+                            <!-- <option value="" disabled selected>Select genre</option> -->
+                            <option value="1">Winter</option>
+                            <option value="2">Spring</option>
+                            <option value="3">Summer</option>
+                            <option value="4">Fall</option>
+                        </select>
+                        
+                    </div>
+    
+                    <div class="col s5 input-field grey darken-3 offset-s1">
+                        <span class="white-text font15 bold">Year:</span>
+                        <select multiple> 
+                            <!-- <option value="" disabled selected>Select genre</option> -->
+                            <option value="1">2023</option>
+                            <option value="2">2022</option>
+                            <option value="3">2021</option>
+                            <option value="4">2020</option>
+                            <option value="5">2019</option>
+                            <option value="6">2018</option>
+                            <option value="7">2017</option>
+                            <option value="8">2016</option>
+                            <option value="9">2015</option>
+                            <option value="10">2014</option>
+                        </select>
+                    </div>
+    
+                    <div class="col s5 input-field grey darken-3" style="margin-left: 5px;">
+                        <span class="white-text font15 bold">Language:</span>
+                        <select > 
+                            <!-- <option value="" disabled selected>Select genre</option> -->
+                            <option value="1">Sub</option>
+                            <option value="2">Dub</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Anime Lists -->
+            <div class="card-panel">
+                <div class="row">
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Bocchi-the-rock.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Bocchi the Rock
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Dr-Stone-New-World-Part-2.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Dr. Stone: New World part 2
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Goblin-Slayer-II.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Goblin Slayer II
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Heretical-villainess.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Hikikomari-Kyuuketsuki-no-Monmon.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Hikikomari Kyuuketsuki no Monmon
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Kage-no-Jitsuryokusha-ni-Naritakute!-2nd-Season.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Kage no Jitsuryokusha ni Naritakute! 2nd Season.jpg
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Kaguya-sama-season-2.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Kaguya-sama season 2
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Kimetsu-no-Yaiba.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Kimetsu no Yaiba
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Kimi-no-na-wa.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Kimi no Na wa
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Konyaku-Haki-sareta-Reijou-wo-Hirotta-Ore-ga-Ikenai-Koto-wo-Oshiekomu.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Konyaku Haki sareta Reijou wo Hirotta Ore ga, Ikenai Koto wo Oshiekomu
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Owarimonogatari-2nd-season.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Owarimonogatari 2nd Season
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Shield-hero-season-3.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Shield Hero Season 3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Sousou-no-Frieren.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Sousou no Frieren
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Spy-x-Family-season-2.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Spy x Family Season 2
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Suki-na-ko.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Suki na Ko ga Megane wo Wasureta
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Violet-Evergarden-the-movie.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Violet Evergarden: The Movie
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Watashi-no-Oshi-wa-Akuyaku-Reijou..jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Watashi no Oshi wa Akuyaku Reijou
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m3 white-text">
+                        <div class="card grey darken-4">
+                            <div class="card-image responsive-img z-depth-4">
+                                <a href="watch-anime.html">
+                                    <img src="images/Yahari-ore.jpg" alt="" style="border-radius: 25px;">
+                                </a>
+                            </div>
+                            <div class="card-content center">
+                                <span class="font truncate">
+                                    Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer grey darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">CoboAni</h5>
+                        <p class="grey-text text-lighten-4">This site is for project purposes only.</p>
+                    </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Contact</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/john4723"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#"><i class="fa-brands fa-discord"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2023 Copyright All Rights Reserve
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('select').formSelect();
+            })
+        </script>
+    </body>
+</html>
